@@ -15,6 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:c2sdk-theme": "ts-node src/theme/newTheme.ts",
     "build": "tsc",
+    "prepare": "tsc",
     "postinstall": "tsc"
   },
   "keywords": [
